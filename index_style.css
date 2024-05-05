@@ -1,0 +1,336 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body { 
+    line-height: 1.86em;
+
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* home section*/
+.home{
+    width: 100%;
+    height: 100vh;                                 
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.home img {
+    width: 15% ;
+    float: left;
+    margin-top: 20px; 
+   
+}
+.home ul {
+    
+    float: right; 
+    margin-top: 40px;
+  
+}
+.home ul li {
+    list-style: none; 
+    float: left;   
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+ }
+.home ul li a { 
+    color: white ;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.clear-fix {
+    clear:both;
+}
+.introduction {
+    text-align: center;  
+    color: white;
+    margin-top: 80px;
+    padding: 20px ;
+}
+.introduction h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 100px;
+    margin-top: 50px;
+    
+}
+.introduction p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+.introduction button {
+    margin-top: 40px;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    padding: 20px 30px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.introduction .learn-more {
+    background-color: #8e7754;;
+    border: 3px solid transparent;
+   
+}
+.introduction .contact-us {
+    background-color: transparent;
+    border: 3px solid white;
+    
+}
+.introduction .learn-more:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.introduction .contact-us:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/*about section*/
+.about {
+    margin-top: 120px;
+    overflow: auto;
+   
+}
+.about .img-about {
+    
+    width: 45%;
+    float: left;
+   
+}
+.about .img-about img {
+    width: 100%;
+}
+
+
+.about .text-about {
+    width: 55%;
+    float: right;
+    
+    padding-top: 70px;
+    padding-left: 100px;
+    
+   
+}
+.about .text-about h2,
+.our-offer .offer-about h2,
+.center h2 {
+    font-size: 40px;
+}
+.about .text-about p ,
+.our-offer .offer-about p{
+
+   font-size: 19px;
+    margin-top: 30px;
+    line-height: 1.86em;
+
+}
+.about .text-about p {
+    color: #686868;
+}
+.our-offer .offer-about p {
+    color: #686868;
+}
+
+.our-offer {
+    margin-top: 120px;
+    overflow: auto;
+    background-color: rgb(247, 247, 247) ;
+    overflow:auto;
+   
+}
+.our-offer .offer-about {
+    width: 55%;
+    float: left;
+    padding-top: 100px ;
+    padding-right: 100px;
+    margin-top: 80px;
+    
+    
+}
+.our-offer .offer-img {
+    width: 45%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.our-offer .offer-img img {
+    width: 100%;
+}
+.gallery  {
+    margin-top: 120px;
+    overflow: auto;
+}
+.center {
+    text-align: center; 
+}
+.center p {
+   margin-top: 30px;
+   font-size: 20px;
+    color: #686868;
+}
+.div-gellery {
+    width: 33.333333333%;
+    text-align: center;
+    float: left;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+   
+}
+.div-gellery img {
+    width: 100%;
+    margin-bottom: 40px;
+  
+}
+.div-gellery h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.div-gellery p {
+    font-size: 18px;
+    line-height: 1.86em;
+    
+}
+.blog {
+    margin-top: 120px;
+    background-color: rgb(247, 247, 247) ;
+    overflow: auto;
+} 
+.blog .contact  {
+    width: 40%;
+    padding-top: 60px;
+    float: left;
+
+}
+.blog .contact p {
+    line-height: 1.86em;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #686868;
+}
+.blog .contact h2 {
+    font-size: 40px;
+}
+.blog .contact ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog .contact ul li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.blog .iframe {
+  width: 60%;
+  float:right;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 140px;
+}
+.contact-us {
+    background-color:#403d38;
+    overflow: auto;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.contact-us .social-links {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.contact-us .social-links  ul li {
+  list-style: none;
+  color: #969696;
+  padding-top: 20px;
+  font-size: 18px;
+ 
+}
+.contact-us .social-links h4 {
+    color: white;
+    font-size: 20px;
+}
+.contact-us .social-links p {
+    color: #969696;
+    line-height: 1.86em;
+    padding-top: 15px;
+    
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+  
+.hr {
+  background-color: #4a4a4a;
+  width: 250px;
+  height: 01px;
+}
+.footer{
+    background-color: #353330;
+    overflow: auto;
+}
+.copy-right {
+    text-align: center;
+    padding-top: 60px;
+   
+}
+.copy-p {
+    color: #969696;
+    margin-top: 30px;
+
+}
+.copy-right i {
+ color: #969696;
+ font-size: 25px;
+}
+.copy-right .icons {
+text-align: center;
+margin-top: 25px;
+}
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-linkedin-in,
+.fa-twitter {
+  background-color: rgb(84, 82, 82);
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 10px;
+}
+.fa-facebook-f:hover {
+    background-color: rgb(37, 37, 228);
+
+}
+.fa-google-plus-g:hover {
+    background-color: rgb(233, 65, 65);
+}
+.fa-linkedin-in:hover,
+.fa-twitter:hover {
+    background-color: rgb(79, 79, 253);
+}
